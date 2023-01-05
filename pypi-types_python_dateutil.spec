@@ -4,7 +4,7 @@
 #
 Name     : pypi-types_python_dateutil
 Version  : 2.8.19.5
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/c4/ea/68b92be86543118140de6d8107acdf10c2c422759dcddbf1f50681abae0e/types-python-dateutil-2.8.19.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c4/ea/68b92be86543118140de6d8107acdf10c2c422759dcddbf1f50681abae0e/types-python-dateutil-2.8.19.5.tar.gz
 Summary  : Typing stubs for python-dateutil
