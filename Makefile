@@ -1,5 +1,5 @@
 PKG_NAME := pypi-types_python_dateutil
-URL = https://files.pythonhosted.org/packages/30/bd/c9d7ae86e82f177101336b445cbf3e9c5ca9864a8bbe13e5601b3a1b91ad/types-python-dateutil-2.8.19.6.tar.gz
+URL = https://files.pythonhosted.org/packages/35/b9/5777001bf21394e3c246292c12dae03861632f337957fac81b3b486c6093/types-python-dateutil-2.8.19.7.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
