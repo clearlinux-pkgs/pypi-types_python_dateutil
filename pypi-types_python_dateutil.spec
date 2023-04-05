@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-types_python_dateutil
-Version  : 2.8.19.11
-Release  : 32
-URL      : https://files.pythonhosted.org/packages/aa/85/80e28064868c433850f19ad5616edd7d8b98bf4a32528db40eb3716ceab6/types-python-dateutil-2.8.19.11.tar.gz
-Source0  : https://files.pythonhosted.org/packages/aa/85/80e28064868c433850f19ad5616edd7d8b98bf4a32528db40eb3716ceab6/types-python-dateutil-2.8.19.11.tar.gz
+Version  : 2.8.19.12
+Release  : 33
+URL      : https://files.pythonhosted.org/packages/5a/a0/28a975078f292b9c21b3ea7922c31330b0f3629c8c0dc7aea15f40c9cc30/types-python-dateutil-2.8.19.12.tar.gz
+Source0  : https://files.pythonhosted.org/packages/5a/a0/28a975078f292b9c21b3ea7922c31330b0f3629c8c0dc7aea15f40c9cc30/types-python-dateutil-2.8.19.12.tar.gz
 Summary  : Typing stubs for python-dateutil
 Group    : Development/Tools
 License  : Apache-2.0
@@ -41,10 +41,10 @@ python3 components for the pypi-types_python_dateutil package.
 
 
 %prep
-%setup -q -n types-python-dateutil-2.8.19.11
-cd %{_builddir}/types-python-dateutil-2.8.19.11
+%setup -q -n types-python-dateutil-2.8.19.12
+cd %{_builddir}/types-python-dateutil-2.8.19.12
 pushd ..
-cp -a types-python-dateutil-2.8.19.11 buildavx2
+cp -a types-python-dateutil-2.8.19.12 buildavx2
 popd
 
 %build
@@ -52,7 +52,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1679957270
+export SOURCE_DATE_EPOCH=1680706321
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
