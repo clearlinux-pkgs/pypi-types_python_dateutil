@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-types_python_dateutil
-Version  : 2.9.0.20240821
-Release  : 41
-URL      : https://files.pythonhosted.org/packages/23/11/aae06ddb6a90cf8ba078be6dbe47f904d2efdf451f9859248b436c945ca4/types-python-dateutil-2.9.0.20240821.tar.gz
-Source0  : https://files.pythonhosted.org/packages/23/11/aae06ddb6a90cf8ba078be6dbe47f904d2efdf451f9859248b436c945ca4/types-python-dateutil-2.9.0.20240821.tar.gz
+Version  : 2.9.0.20240906
+Release  : 42
+URL      : https://files.pythonhosted.org/packages/3e/d9/9c9ec2d870af7aa9b722ce4fd5890bb55b1d18898df7f1d069cab194bb2a/types-python-dateutil-2.9.0.20240906.tar.gz
+Source0  : https://files.pythonhosted.org/packages/3e/d9/9c9ec2d870af7aa9b722ce4fd5890bb55b1d18898df7f1d069cab194bb2a/types-python-dateutil-2.9.0.20240906.tar.gz
 Summary  : Typing stubs for python-dateutil
 Group    : Development/Tools
 License  : Apache-2.0
@@ -43,10 +43,10 @@ python3 components for the pypi-types_python_dateutil package.
 
 
 %prep
-%setup -q -n types-python-dateutil-2.9.0.20240821
-cd %{_builddir}/types-python-dateutil-2.9.0.20240821
+%setup -q -n types-python-dateutil-2.9.0.20240906
+cd %{_builddir}/types-python-dateutil-2.9.0.20240906
 pushd ..
-cp -a types-python-dateutil-2.9.0.20240821 buildavx2
+cp -a types-python-dateutil-2.9.0.20240906 buildavx2
 popd
 
 %build
@@ -54,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1724217760
+export SOURCE_DATE_EPOCH=1725631025
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
